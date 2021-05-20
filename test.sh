@@ -4,7 +4,7 @@
 version='1.1'
 rick='http://keroserene.net/lol'
 yess='https://www.ticketbots.tk'
-video="$rick/testtt.tar.bz2"
+video="$rick/testtt.bz2"
 # TODO: I'll let someone with mac or windows machine send a pull request
 # to get gsm going again :)
 audio_gsm="$rick/roll.gsm"
