@@ -1,6 +1,7 @@
 #!/bin/bash
 # Rick Astley in your Terminal.
-# By Serene Han and Justine Tunney <3
+# By Serene Han and Justine Tunney <
+echo "This now should work on school imac now"
 version='1.1'
 rick='https://www.ticketbots.tk/rickroll'
 video="$rick/astley80.full.bz2"
