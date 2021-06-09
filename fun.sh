@@ -72,7 +72,7 @@ elif has? play; then
 fi
 audpid=$!
 
-#echo -e "${yell}Fetching video..."
+echo -e "${yell}Fetching video..."
 # Sync FPS to reality as best as possible. Mac's freebsd version of date cannot
 # has nanoseconds so inject python. :/
 python <(cat <<EOF
