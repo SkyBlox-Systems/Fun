@@ -10,7 +10,7 @@ video="$rick/astley80.full.bz2"
 audio_gsm="$rick/roll.gsm"
 audio_raw="$rick/roll.s16"
 audpid=0
-NEVER_GONNA='curl -s -L https://raw.githubusercontent.com/SkyBlox-Systems/Fun/main/fun.sh | bash'
+NEVER_GONNA='https://raw.githubusercontent.com/SkyBlox-Systems/Fun/main/fun.sh'
 MAKE_YOU_CRY="$HOME/.bashrc"
 red='\x1b[38;5;9m'
 yell='\x1b[38;5;216m'
@@ -20,7 +20,7 @@ echo -en '\x1b[s'  # Save cursor.
 
 has?() { hash $1 2>/dev/null; }
 cleanup() { (( audpid > 1 )) && kill $audpid 2>/dev/null; }
-quit() { echo -e "\x1b[2J \x1b[0H ${purp}<3 \x1b[?25h \x1b[u \x1b[m"; }
+quit() { echo -e "\x1b[2J \x1b[0H ${purp}<3 now works on school imac \x1b[?25h \x1b[u \x1b[m"; }
 
 usage () {
   echo -en "${green}Rick Astley performs ♪ Never Gonna Give You Up ♪ on STDOUT."
