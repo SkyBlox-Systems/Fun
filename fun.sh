@@ -36,7 +36,7 @@ for arg in "$@"; do
   elif [[ "$arg" == "inject" ]]; then
     echo -en "${red}[Inject] "
     echo $NEVER_GONNA >> $MAKE_YOU_CRY
-    echo -e "${green}Appended to $MAKE_YOU_CRY. <3"
+    echo -e "${green}Appended to $MAKE_YOU_CRY. <3 now works on school imac"
     echo -en "${yell}If you've astley overdosed, "
     echo -e "delete the line ${purp}\"$NEVER_GONNA\"${yell}."
     exit
