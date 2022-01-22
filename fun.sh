@@ -3,7 +3,7 @@
 # By Serene Han and Justine Tunney <
 echo "This now should work on school imac now"
 version='1.1'
-rick='https://www.ticketbots.tk/rickroll'
+rick='https://www.ticketbot.tk/rickroll'
 video="$rick/astley80.full.bz2"
 # TODO: I'll let someone with mac or windows machine send a pull request
 # to get gsm going again :)
